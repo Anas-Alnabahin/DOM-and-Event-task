@@ -3,5 +3,86 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 /* Global styling end */
+
+
+/* header styling start */
+header{
+    background-color: rgb(39, 98, 146);
+    color: white;
+    display: flex;
+    height: 30vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    font-weight: normal;
+    font-size: 3rem;
+}
+/* header styling start */
+
+/* main styling start */
+main{
+    height: 70vh;
+    background-color: rgb(36, 32, 32);
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+.paint{
+    background-color: rgb(146, 179, 194);
+    font-weight: 700;
+    font-size: 2rem;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.generateColor{
+    color: white;
+    display: grid;
+    row-gap: 1rem;
+    place-items: center;
+}
+
+button{
+    background-color: white;
+    color: rgb(66, 66, 179);
+    border: none;
+    height: 3rem;
+    width: 18rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+button:hover{
+    background-color: rgb(92, 92, 247);
+    color: white;
+    cursor: pointer;
+}
+
+.generateColor p{
+    color: rgb(58, 161, 156);
+}
+
+input{
+    color: rgb(58, 161, 156);
+    height: 3rem;
+    width: 18rem;
+}
+/* main styling end */
